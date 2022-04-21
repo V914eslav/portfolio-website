@@ -9,7 +9,7 @@ const links = [
   "мой проекты",
   "отзывы",
   "статьи",
-  "код сайта",
+  "код работы",
 ];
 const Header = () => {
   const navLinks = links.map((link, index) => {

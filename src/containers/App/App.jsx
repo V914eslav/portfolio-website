@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Banner from "../../components/Banner";
 import Header from "../../components/Header";
+import MyStack from "../../components/MyStack";
 import routesConfig from "../../routes/routesConfig";
 
 import styles from "./App.module.css";
@@ -22,6 +23,8 @@ const App = () => {
           ))}
         </Routes>
       </BrowserRouter>
+
+      <MyStack />
     </div>
   );
 };
