@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import MyStack from "../../components/MyStack";
 import routesConfig from "../../routes/routesConfig";
@@ -25,6 +26,7 @@ const App = () => {
       </BrowserRouter>
 
       <MyStack />
+      <Footer />
     </div>
   );
 };

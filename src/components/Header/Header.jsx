@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../Logo/Logo";
 
 import styles from "./Header.module.css";
 
@@ -19,10 +20,10 @@ const Header = () => {
       </a>
     );
   });
-  const logo = <a className={styles.logo}>V914</a>;
   return (
     <div className={styles.header}>
-      {logo}
+      <Logo />
+
       <nav className={styles.nav}>{navLinks}</nav>
     </div>
   );
