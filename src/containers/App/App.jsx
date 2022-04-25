@@ -6,6 +6,7 @@ import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import MyStack from "../../components/MyStack";
+import Reviews from "../../components/Reviews";
 import routesConfig from "../../routes/routesConfig";
 
 import styles from "./App.module.css";
@@ -26,6 +27,7 @@ const App = () => {
       </BrowserRouter>
 
       <MyStack />
+      <Reviews />
       <Footer />
     </div>
   );
