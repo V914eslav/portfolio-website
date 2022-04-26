@@ -7,6 +7,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import MyStack from "../../components/MyStack";
 import Reviews from "../../components/Reviews";
+import AboutMe from "../../components/AboutMe";
+
 import ErrorMessage from "../../components/ErrorMessage";
 import routesConfig from "../../routes/routesConfig";
 
@@ -29,6 +31,7 @@ const App = () => {
 
       <MyStack />
       <Reviews />
+      <AboutMe />
       <Footer />
     </div>
   );
