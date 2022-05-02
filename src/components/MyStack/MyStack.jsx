@@ -25,7 +25,7 @@ const MyStack = () => {
   });
   return (
     <div className={styles.wrapper}>
-      <h2 className={styles.headers}>My Stack</h2>
+      <h2 className={styles.header}>My Stack</h2>
       <div className={styles.items}>{listItems}</div>
     </div>
   );
