@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,26 +15,37 @@ import routesConfig from "../../routes/routesConfig";
 import styles from "./App.module.css";
 // import cn from "classnames";
 
-const App = () => {
-  return (
-    <div className={styles.app}>
-      <BrowserRouter>
-        <Header />
-        <Banner />
+export default class App extends Component {
+  state = {
+    hasError: false,
+  };
+  componentDidCatch() {
+    this.setState({
+      hasError: true,
+    });
+  }
+  render() {
+    if (this.state.hasError) {
+      return <ErrorMessage />;
+    }
+    return (
+      <div className={styles.app}>
+        <BrowserRouter>
+          <Header />
+          <Banner />
 
-        <Routes>
-          {routesConfig.map((route, index) => (
-            <Route key={index} path={route.path} element={route.element} />
-          ))}
-        </Routes>
-      </BrowserRouter>
+          <Routes>
+            {routesConfig.map((route, index) => (
+              <Route key={index} path={route.path} element={route.element} />
+            ))}
+          </Routes>
+        </BrowserRouter>
 
-      <MyStack />
-      <Reviews />
-      <AboutMe />
-      <Footer />
-    </div>
-  );
-};
-
-export default App;
+        <MyStack />
+        <Reviews />
+        <AboutMe />
+        <Footer />
+      </div>
+    );
+  }
+}
