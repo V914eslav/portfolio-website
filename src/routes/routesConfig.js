@@ -1,10 +1,9 @@
-import App from "../containers/App";
-import Header from "../components/Header";
-import Banner from "../components/Banner";
+import MyProjects from "../containers/MyProjects/MyProjects";
+import MyStack from "../containers/MyStack/MyStack";
 
 const routesConfig = [
-  { path: "/header", element: <Header /> },
-  { path: "/banner", element: <Banner /> },
+  { path: "/myprojects", element: <MyProjects /> },
+  { path: "/mystack", element: <MyStack /> },
 ];
 
 export default routesConfig;

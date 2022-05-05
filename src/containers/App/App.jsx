@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
@@ -30,16 +30,13 @@ export default class App extends Component {
     }
     return (
       <div className={styles.app}>
-        <BrowserRouter>
-          <Header />
-          <Banner />
-
-          <Routes>
-            {routesConfig.map((route, index) => (
-              <Route key={index} path={route.path} element={route.element} />
-            ))}
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          {routesConfig.map((route, index) => (
+            <Route key={index} path={route.path} element={route.element} />
+          ))}
+        </Routes>
+        <Header />
+        <Banner />
 
         <MyStack />
         <Reviews />
