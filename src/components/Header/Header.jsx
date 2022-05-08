@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 import Logo from "../Logo";
 import routesConfig from "../../routes/routesConfig";
+
+import styles from "./Header.module.css";
 const Header = () => {
   const header = routesConfig.map(({ path, name }, index) => {
     return (
@@ -12,10 +14,10 @@ const Header = () => {
     );
   });
   return (
-    <>
+    <div className={styles.header}>
       <Logo />
-      {header}
-    </>
+      <div className={styles.nav}> {header}</div>
+    </div>
   );
 };
 

@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Logo from "../Logo";
 
+import styles from "./Footer.module.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div>Footer</div>
-    )
+      <div className={styles.footer}>
+        Footer
+        <Logo />
+      </div>
+    );
   }
 }
