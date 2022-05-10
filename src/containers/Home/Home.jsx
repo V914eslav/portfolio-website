@@ -4,6 +4,7 @@ import Banner from "../../components/Banner";
 import Projects from "../../components/Projects";
 import Stack from "../../components/Stack";
 import Reviews from "../../components/Reviews";
+import About from "../../components/About";
 import Contacts from "../../components/Contacts";
 
 import styles from "./Home.module.css";
@@ -16,6 +17,7 @@ export default class Home extends Component {
         <Stack />
         <Projects />
         <Reviews />
+        <About />
         <Contacts />
       </div>
     );

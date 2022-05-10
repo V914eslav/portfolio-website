@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <div className={styles.footer}>
         Footer
-        <Logo />
+        <Logo theme="light" />
       </div>
     );
   }
