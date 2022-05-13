@@ -1,6 +1,21 @@
 .header {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  align-items: center;
   background-color: darkolivegreen;
+  padding: 30px 20px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.3s linear;
+  font-size: 26px;
+  color: black;
+}
+.link:hover {
+  color: rgb(52, 10, 149);
+}
+:global(.active) {
+  color: rgb(149, 31, 10);
 }

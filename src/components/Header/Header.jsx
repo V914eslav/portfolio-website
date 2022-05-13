@@ -8,7 +8,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   const header = routesConfig.map(({ path, name }, index) => {
     return (
-      <NavLink to={path} key={index}>
+      <NavLink to={path} key={index} className={styles.link}>
         {name}
       </NavLink>
     );

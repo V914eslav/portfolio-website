@@ -1,6 +1,9 @@
 .logo {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 .dark {
   color: #000;
