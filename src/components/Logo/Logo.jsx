@@ -11,7 +11,7 @@ export default class Logo extends Component {
     const { theme = "dark" } = this.props;
     return (
       <NavLink to="/" className={cn(styles.logo, styles[theme])}>
-        Logo
+        V
       </NavLink>
     );
   }

@@ -16,6 +16,6 @@
 .link:hover {
   color: rgb(52, 10, 149);
 }
-:global(.active) {
+:global(nav .active) {
   color: rgb(149, 31, 10);
 }

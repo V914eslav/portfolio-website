@@ -1,0 +1,14 @@
+.banner {
+  height: 200px;
+  background: url(img/banner.jpg) 0 0 / 100% 100% no-repeat;
+  text-align: center;
+  padding: 300px;
+}
+.title {
+  font-size: 72px;
+  color: white;
+}
+.text {
+  color: white;
+  font-size: 36px;
+}

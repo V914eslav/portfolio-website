@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <Logo />
-      <div className={styles.nav}> {header}</div>
+      <nav className={styles.nav}> {header}</nav>
     </div>
   );
 };
