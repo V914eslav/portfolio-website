@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trinket-shop/static/css/main.1588fd8e.css",
+    "main.js": "/trinket-shop/static/js/main.cb62fcfd.js",
+    "static/media/banner.jpg": "/trinket-shop/static/media/banner.8fd9c87d3dbd1eb62bbd.jpg",
+    "index.html": "/trinket-shop/index.html",
+    "main.1588fd8e.css.map": "/trinket-shop/static/css/main.1588fd8e.css.map",
+    "main.cb62fcfd.js.map": "/trinket-shop/static/js/main.cb62fcfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1588fd8e.css",
+    "static/js/main.cb62fcfd.js"
+  ]
+}
