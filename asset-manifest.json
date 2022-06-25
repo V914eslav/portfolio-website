@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trinket-shop/static/css/main.1588fd8e.css",
-    "main.js": "/trinket-shop/static/js/main.cb62fcfd.js",
-    "static/media/banner.jpg": "/trinket-shop/static/media/banner.8fd9c87d3dbd1eb62bbd.jpg",
-    "index.html": "/trinket-shop/index.html",
-    "main.1588fd8e.css.map": "/trinket-shop/static/css/main.1588fd8e.css.map",
-    "main.cb62fcfd.js.map": "/trinket-shop/static/js/main.cb62fcfd.js.map"
+    "main.css": "/portfolio-website/static/css/main.91311abd.css",
+    "main.js": "/portfolio-website/static/js/main.3ee16277.js",
+    "static/media/banner.jpg": "/portfolio-website/static/media/banner.8fd9c87d3dbd1eb62bbd.jpg",
+    "index.html": "/portfolio-website/index.html",
+    "main.91311abd.css.map": "/portfolio-website/static/css/main.91311abd.css.map",
+    "main.3ee16277.js.map": "/portfolio-website/static/js/main.3ee16277.js.map"
   },
   "entrypoints": [
-    "static/css/main.1588fd8e.css",
-    "static/js/main.cb62fcfd.js"
+    "static/css/main.91311abd.css",
+    "static/js/main.3ee16277.js"
   ]
 }
